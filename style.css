@@ -1,8 +1,22 @@
 body{
     background:black;
-    colour:white;
+    color:white;
     text-align:center;
     font-family:Arial;
 }
-h1{ colour:gold;
+h1{ color:gold;
+}
+nav{
+    margin:20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+button{
+    background:gold;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
 }
