@@ -23,11 +23,14 @@ button{
 section{
     margin:40px;
 }
-div{
-    border:1px;
-    padding:20px;
-    margin:20px;
-}
 .services{
     display:flex;
+    justify-content:center;
+}
+.card{
+    border:1px solid white;
+    padding:20px;
+    margin:20px;
+    width:250px;
+    border-radius:10px;
 }
