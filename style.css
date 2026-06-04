@@ -6,3 +6,28 @@ body{
 }
 h1{ color:gold;
 }
+nav{
+    margin:20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+button{
+    background:gold;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+section{
+    margin:40px;
+}
+div{
+    border:1px;
+    padding:20px;
+    margin:20px;
+}
+.services{
+    display:flex;
+}
