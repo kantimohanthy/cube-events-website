@@ -13,7 +13,7 @@ nav a{
     color:white;
     text-decoration:none;
     margin:15px;
-    transition:0.3s;
+    padding:10px;
 }
 button{
     background:gold;
@@ -22,18 +22,7 @@ button{
     cursor:pointer;
 }
 section{
-    margin:40px;
-}
-.services{
-    display:flex;
-    justify-content:center;
-}
-.card{
-    border:1px solid white;
-    padding:20px;
-    margin:20px;
-    width:250px;
-    border-radius:10px;
+    margin:30px;
 }
 .services{
   display:flex;
@@ -41,24 +30,21 @@ section{
   flex-wrap:wrap;
 }
 .card{
-  border:1px solid white;
+  background:#111;
+  border:1px solid #333;
   padding:20px;
   margin:20px;
   width:250px;
   border-radius:10px;
   box-shadow:0px 0px 25px gold;
-  transition:0.3s;
-  background:#111;
+  transition:0.3s
 }
 .card:hover{
-  transform:scale(1.05);
-  background:#1a1a1a;
+  transform:translateY(-10px);
+  opacity:0.8;
 }
 nav a:hover{
   color:gold;
-}
-.hero{
-  padding:100px 20px;
 }
 footer{
   margin-top:50px;
@@ -69,12 +55,25 @@ body{
   background:black;
   color:white;
   text-align:center;
-  font-family:Verdona, sans-serif;
+  font-family:Verdana, sans-serif;
 }
-.input,
-.textarea{
-  width:300px;
-  padding:10px;
-  border-radius:5px;
-  border:none,
+html{
+  scroll-behavior:smooth;
+}
+header{
+padding:20px;
+border-bottom:1px solid white;
+position:sticky;
+top:0px;
+background:black;
+}
+.hero{
+  padding:100px 15px;
+}
+.hero h2{
+  font-size:40px;
+}
+.hero p{
+  font-size:20px;
+  color:#ccc;
 }
